@@ -154,6 +154,20 @@ footer p{color:var(--mut2);font-size:.8rem;max-width:540px}
 .btn-amber{background:var(--amber);color:var(--ink);box-shadow:0 4px 18px rgba(232,160,32,.28)}
 .btn-ghost{border:1px solid var(--line);color:var(--paper)}
 .hero-ctas{margin-top:30px;display:flex;gap:12px;flex-wrap:wrap}
+
+/* ── mobile pass (Admiral 2026-08-09) ── */
+@media(max-width:720px){
+  .wrap{padding:0 16px}
+  .phones{gap:14px;padding:10px calc(50vw - 132px) 22px}  /* center first/last phone in the snap carousel */
+  .phone{flex-basis:240px;border-radius:30px}
+  .phone-cap{font-size:.75rem}
+  table.wp{width:100%;min-width:0;font-size:.82rem}
+  .table-scroll{overflow-x:auto}
+  th,td{padding:10px 10px}
+  nav .wrap{height:auto;min-height:54px;flex-wrap:wrap;gap:6px;padding:8px 16px}
+  nav a{font-size:.8rem}
+  .hero{padding:48px 0 40px}
+}
 </style>
 </head>
 <body>
